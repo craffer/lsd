@@ -30,7 +30,7 @@ impl Icons {
                 (
                     Self::get_default_icons_by_name(),
                     Self::get_default_icons_by_extension(),
-                    "\u{f016}", // 
+                    "\u{f15c}", // 
                     "\u{f115}", // 
                 )
             } else {
@@ -147,11 +147,16 @@ impl Icons {
         m.insert("include", "\u{e5fc}"); // ""
         m.insert("lib", "\u{f121}"); // ""
         m.insert("localized", "\u{f179}"); // ""
+        m.insert("Makefile", "\u{e20f}");
         m.insert("node_modules", "\u{e718}"); // ""
         m.insert("npmignore", "\u{e71e}"); // ""
         m.insert("rubydoc", "\u{e73b}"); // ""
         m.insert("yarn.lock", "\u{e718}"); // ""
         m.insert("Cargo.lock", "\u{e7a8}"); // ""
+        m.insert("config", "\u{e5fc}");
+        m.insert("bin", "\u{e5fc}");
+        m.insert("build", "\u{e5fc}");
+        m.insert("include", "\u{e5fc}");
 
         m
     }
@@ -161,7 +166,7 @@ impl Icons {
 
         m.insert("apk", "\u{e70e}"); // ""
         m.insert("apk", "\u{e70e}"); // ""
-        m.insert("avi", "\u{f03d}"); // ""
+        m.insert("avi", "\u{f880}"); // ""
         m.insert("avro", "\u{e60b}"); // ""
         m.insert("awk", "\u{f489}"); // ""
         m.insert("bash", "\u{f489}"); // ""
@@ -211,7 +216,7 @@ impl Icons {
         m.insert("exs", "\u{e62d}");
         m.insert("fish", "\u{f489}"); // ""
         m.insert("flac", "\u{f001}"); // ""
-        m.insert("flv", "\u{f03d}"); // ""
+        m.insert("flv", "\u{f880}"); // ""
         m.insert("font", "\u{f031}"); // ""
         m.insert("gdoc", "\u{f1c2}"); // ""
         m.insert("gemfile", "\u{e21e}"); // ""
@@ -236,12 +241,12 @@ impl Icons {
         m.insert("image", "\u{f1c5}"); // ""
         m.insert("iml", "\u{e7b5}"); // ""
         m.insert("ini", "\u{f17a}"); // ""
-        m.insert("ipynb", "\u{e606}"); // ""
+        m.insert("ipynb", "\u{e235}"); // ""
         m.insert("jar", "\u{e204}"); // ""
         m.insert("java", "\u{e204}"); // ""
         m.insert("jpeg", "\u{f1c5}"); // ""
         m.insert("jpg", "\u{f1c5}"); // ""
-        m.insert("js", "\u{e74e}"); // ""
+        m.insert("js", "\u{f81d}");
         m.insert("json", "\u{e60b}"); // ""
         m.insert("jsx", "\u{e7ba}"); // ""
         m.insert("ksh", "\u{f489}"); // ""
@@ -256,15 +261,15 @@ impl Icons {
         m.insert("markdown", "\u{f48a}"); // ""
         m.insert("md", "\u{f48a}"); // ""
         m.insert("mkd", "\u{f48a}"); // ""
-        m.insert("mkv", "\u{f03d}"); // ""
+        m.insert("mkv", "\u{f880}"); // ""
         m.insert("mobi", "\u{e28b}"); // ""
-        m.insert("mov", "\u{f03d}"); // ""
+        m.insert("mov", "\u{f880}");
         m.insert("mp3", "\u{f001}"); // ""
-        m.insert("mp4", "\u{f03d}"); // ""
+        m.insert("mp4", "\u{f880}");
         m.insert("mustache", "\u{e60f}"); // ""
         m.insert("npmignore", "\u{e71e}"); // ""
         m.insert("ogg", "\u{f001}"); // ""
-        m.insert("ogv", "\u{f03d}"); // ""
+        m.insert("ogv", "\u{f880}"); // ""
         m.insert("otf", "\u{f031}"); // ""
         m.insert("pdf", "\u{f1c1}"); // ""
         m.insert("php", "\u{e73d}"); // ""
@@ -277,8 +282,8 @@ impl Icons {
         m.insert("ps1", "\u{f489}"); // ""
         m.insert("psd", "\u{e7b8}"); // ""
         m.insert("pxm", "\u{f1c5}"); // ""
-        m.insert("py", "\u{e606}"); // ""
-        m.insert("pyc", "\u{e606}"); // ""
+        m.insert("py", "\u{e235}"); // ""
+        m.insert("pyc", "\u{e235}"); // ""
         m.insert("r", "\u{f25d}"); // ""
         m.insert("rakefile", "\u{e21e}"); // ""
         m.insert("rar", "\u{f410}"); // ""
@@ -319,11 +324,11 @@ impl Icons {
         m.insert("ttf", "\u{f031}"); // ""
         m.insert("twig", "\u{e61c}"); // ""
         m.insert("txt", "\u{f15c}"); // ""
-        m.insert("video", "\u{f03d}"); // ""
+        m.insert("video", "\u{f880}"); // ""
         m.insert("vim", "\u{e62b}"); // ""
         m.insert("vue", "\u{fd42}"); // "﵂"
         m.insert("wav", "\u{f001}"); // ""
-        m.insert("webm", "\u{f03d}"); // ""
+        m.insert("webm", "\u{f880}"); // ""
         m.insert("webp", "\u{f1c5}"); // ""
         m.insert("windows", "\u{f17a}"); // ""
         m.insert("woff", "\u{f031}"); // ""
