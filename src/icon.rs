@@ -146,6 +146,7 @@ impl Icons {
         m.insert("hidden", "\u{f023}"); // ""
         m.insert("include", "\u{e5fc}"); // ""
         m.insert("lib", "\u{f121}"); // ""
+        m.insert("license", "\u{e60a}";
         m.insert("localized", "\u{f179}"); // ""
         m.insert("Makefile", "\u{e20f}");
         m.insert("node_modules", "\u{e718}"); // ""
