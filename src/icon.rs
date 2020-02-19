@@ -210,7 +210,7 @@ impl Icons {
         m.insert("elm", "\u{e62c}"); // ""
         m.insert("env", "\u{f462}"); // ""
         m.insert("eot", "\u{f031}"); // ""
-        m.insert("epub", "\u{e28a}"); // ""
+        m.insert("epub", "\u{e28b}");
         m.insert("erb", "\u{e73b}"); // ""
         m.insert("erl", "\u{e7b1}"); // ""
         m.insert("exe", "\u{f17a}"); // ""
