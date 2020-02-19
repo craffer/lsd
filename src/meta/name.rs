@@ -40,10 +40,12 @@ impl Name {
 
     pub fn name_string(&self, icons: &Icons) -> String {
         let icon = icons.get(self);
-        let mut content = String::with_capacity(icon.len() + self.name.len() + 3 /* spaces */);
+        let mut content = String::with_capacity(icon.len() + self.name.len() + 7 /* spaces */);
 
+        content += "  ";
         content += icon.as_str();
         content += &self.name;
+        content += "  ";
         content
     }
 

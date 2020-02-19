@@ -16,7 +16,7 @@ pub enum Theme {
     Unicode,
 }
 
-const ICON_SPACE: &str = " ";
+const ICON_SPACE: &str = "  ";
 
 // In order to add a new icon, write the unicode value like "\ue5fb" then
 // run the command below in vim:
@@ -61,11 +61,7 @@ impl Icons {
         // Check file types
         let file_type: FileType = name.file_type();
 
-        if let FileType::Directory { .. } = file_type {
-            res += self.default_folder_icon;
-            res += ICON_SPACE;
-            return res;
-        } else if let FileType::SymLink = file_type {
+        if let FileType::SymLink = file_type {
             res += "\u{e27c}"; // ""
             res += ICON_SPACE;
             return res;
