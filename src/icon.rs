@@ -30,7 +30,7 @@ impl Icons {
                 (
                     Self::get_default_icons_by_name(),
                     Self::get_default_icons_by_extension(),
-                    "\u{f15c}", // 
+                    "\u{f15c}",
                     "\u{f115}", // 
                 )
             } else {
@@ -121,12 +121,12 @@ impl Icons {
         m.insert(".atom", "\u{e764}"); // ""
         m.insert(".bashprofile", "\u{e615}"); // ""
         m.insert(".bashrc", "\u{f489}"); // ""
-        m.insert(".git", "\u{f1d3}"); // ""
-        m.insert(".gitattributes", "\u{f1d3}"); // ""
-        m.insert(".gitconfig", "\u{f1d3}"); // ""
+        m.insert(".git", "\u{f1d2}");
+        m.insert(".gitattributes", "\u{f1d2}");
+        m.insert(".gitconfig", "\u{f1d2}");
         m.insert(".github", "\u{f408}"); // ""
-        m.insert(".gitignore", "\u{f1d3}"); // ""
-        m.insert(".gitmodules", "\u{f1d3}"); // ""
+        m.insert(".gitignore", "\u{f1d2}");
+        m.insert(".gitmodules", "\u{f1d2}");
         m.insert(".rvm", "\u{e21e}"); // ""
         m.insert(".vimrc", "\u{e62b}"); // ""
         m.insert(".vscode", "\u{e70c}"); // ""
@@ -285,8 +285,8 @@ impl Icons {
         m.insert("ps1", "\u{f489}"); // ""
         m.insert("psd", "\u{e7b8}"); // ""
         m.insert("pxm", "\u{f1c5}"); // ""
-        m.insert("py", "\u{e235}"); // ""
-        m.insert("pyc", "\u{e235}"); // ""
+        m.insert("py", "\u{e235}");
+        m.insert("pyc", "\u{e235}");
         m.insert("r", "\u{f25d}"); // ""
         m.insert("rakefile", "\u{e21e}"); // ""
         m.insert("rar", "\u{f410}"); // ""
