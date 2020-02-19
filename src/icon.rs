@@ -225,7 +225,7 @@ impl Icons {
         m.insert("gemspec", "\u{e21e}"); // ""
         m.insert("gform", "\u{f298}"); // ""
         m.insert("gif", "\u{f1c5}"); // ""
-        m.insert("git", "\u{f1d3}"); // ""
+        m.insert("git", "\u{e702}");
         m.insert("go", "\u{e626}"); // ""
         m.insert("gradle", "\u{e70e}"); // ""
         m.insert("gsheet", "\u{f1c3}"); // ""
