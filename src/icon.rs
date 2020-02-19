@@ -274,6 +274,7 @@ impl Icons {
         m.insert("ogv", "\u{f880}"); // ""
         m.insert("otf", "\u{f031}"); // ""
         m.insert("pdf", "\u{f1c1}"); // ""
+        m.insert("pem", "\u{f456}");
         m.insert("php", "\u{e73d}"); // ""
         m.insert("pl", "\u{e769}"); // ""
         m.insert("png", "\u{f1c5}"); // ""
