@@ -15,7 +15,7 @@ const BLANK: &str = "   ";
 
 pub fn grid(metas: &[Meta], flags: &Flags, colors: &Colors, icons: &Icons) -> String {
     let term_width = match terminal_size() {
-        Some((w, _)) => Some(w.0 as usize),
+        Some((w, _)) => Some(((w.0 as f64) / 1.25) as usize),
         None => None,
     };
 
