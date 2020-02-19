@@ -217,7 +217,7 @@ impl Icons {
         m.insert("ex", "\u{e62d}"); // ""
         m.insert("exs", "\u{e62d}");
         m.insert("fish", "\u{f489}"); // ""
-        m.insert("flac", "\u{f001}"); // ""
+        m.insert("flac", "\u{f01d}");
         m.insert("flv", "\u{f880}"); // ""
         m.insert("font", "\u{f031}"); // ""
         m.insert("gdoc", "\u{f1c2}"); // ""
@@ -259,18 +259,18 @@ impl Icons {
         m.insert("lock", "\u{e21e}"); // ""
         m.insert("log", "\u{f18d}"); // ""
         m.insert("lua", "\u{e620}"); // ""
-        m.insert("m4a", "\u{f001}"); // ""
+        m.insert("m4a", "\u{f01d}");
         m.insert("markdown", "\u{f48a}"); // ""
         m.insert("md", "\u{f48a}"); // ""
         m.insert("mkd", "\u{f48a}"); // ""
         m.insert("mkv", "\u{f880}"); // ""
         m.insert("mobi", "\u{e28b}"); // ""
         m.insert("mov", "\u{f880}");
-        m.insert("mp3", "\u{f001}"); // ""
+        m.insert("mp3", "\u{f01d}");
         m.insert("mp4", "\u{f880}");
         m.insert("mustache", "\u{e60f}"); // ""
         m.insert("npmignore", "\u{e71e}"); // ""
-        m.insert("ogg", "\u{f001}"); // ""
+        m.insert("ogg", "\u{f01d}");
         m.insert("ogv", "\u{f880}"); // ""
         m.insert("otf", "\u{f031}"); // ""
         m.insert("pdf", "\u{f1c1}"); // ""
@@ -329,7 +329,7 @@ impl Icons {
         m.insert("video", "\u{f880}"); // ""
         m.insert("vim", "\u{e62b}"); // ""
         m.insert("vue", "\u{fd42}"); // "﵂"
-        m.insert("wav", "\u{f001}"); // ""
+        m.insert("wav", "\u{f01d}");
         m.insert("webm", "\u{f880}"); // ""
         m.insert("webp", "\u{f1c5}"); // ""
         m.insert("windows", "\u{f17a}"); // ""
