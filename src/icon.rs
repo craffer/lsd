@@ -104,6 +104,11 @@ impl Icons {
         }
 
         // Use the default icons.
+        if let FileType::Directory { .. } = file_type {
+            res += self.default_folder_icon;
+            res += ICON_SPACE;
+            return res;
+        }
         res += self.default_file_icon;
         res += ICON_SPACE;
         res
@@ -142,7 +147,7 @@ impl Icons {
         m.insert("hidden", "\u{f023}"); // ""
         m.insert("include", "\u{e5fc}"); // ""
         m.insert("lib", "\u{f121}"); // ""
-        m.insert("license", "\u{e60a}";
+        m.insert("LICENSE", "\u{e60a}");
         m.insert("localized", "\u{f179}"); // ""
         m.insert("Makefile", "\u{e20f}");
         m.insert("node_modules", "\u{e718}"); // ""
