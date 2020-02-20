@@ -264,7 +264,8 @@ fn get_output<'a>(
 }
 
 fn get_visible_width(input: &str) -> usize {
-    let mut nb_invisible_char = 0;
+    // start at two for trailing strings
+    let mut nb_invisible_char = 2;
 
     // If the input has color, do not compute the length contributed by the color to the actual length
     for (idx, _) in input.match_indices("\u{1b}[") {
